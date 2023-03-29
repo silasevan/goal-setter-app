@@ -1,0 +1,26 @@
+{
+  "name": "goalsetter_app",
+  "version": "1.0.0",
+  "description": "Brad travesy MERN tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start":"node backend/server.js",
+    "server":"nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silasevan/goal-setter-app.git"
+  },
+  "author": "silasevan",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
