@@ -14,4 +14,10 @@ const {getGoals,
     router.route('/:id').delete(deleteGoal).put(updateGoals)
 
 
+//router.get('/',getGoals)
+//router.post('/',setGoals)
+//router.put('/:id',updateGoals)
+//router.delete('/:id', deleteGoal)
+
+
 module.exports = router
