@@ -4,8 +4,8 @@
   "description": "Brad travesy MERN tutorial",
   "main": "server.js",
   "scripts": {
-    "start":"node backend/server.js",
-    "server":"nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,7 @@
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
     "mongoose": "^7.0.3"
   },
   "devDependencies": {
